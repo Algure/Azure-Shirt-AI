@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
                     int resultLength;
 
 //            // Request headers - replace this example key with your valid Prediction-Key.
-                    httpPost.addHeader("Prediction-Key", "cb4da91037cd4deeb35710d4aee2b4dc");
+                    httpPost.addHeader("Prediction-Key", String.valueOf(R.string.prediction_key));//"cb4da91037cd4deeb35710d4aee2b4dc");
                     httpPost.setEntity(new ByteArrayEntity(b));
                     HttpResponse response=client.execute(httpPost);
                     Log.i("httpResponse",response.toString());

@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Shirt Classifier</string>
     <string name="choose">choose pic</string>
+    <string name="prediction_key">cb4da91037cd4deeb35710d4aee2b4dc</string>
 </resources>
