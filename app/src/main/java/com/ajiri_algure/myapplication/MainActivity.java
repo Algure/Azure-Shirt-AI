@@ -177,9 +177,8 @@ public class MainActivity extends AppCompatActivity {
             protected Void doInBackground(Void... voids) {
                 try {
                     HttpClient client=new DefaultHttpClient();
-                    URL req=new URL(
-                            "https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/14026963-fe8d-43d9-be30-5f058988e016/classify/iterations/Shirt_prediction_firess/image");
-                    HttpPost httpPost = new HttpPost(String.valueOf(req));
+                    URL req=new URL(getResources().getString(R.string.cvisionURL));
+                     HttpPost httpPost = new HttpPost(String.valueOf(req));
                     int resultLength;
 
 //            // Request headers - replace this example key with your valid Prediction-Key.
