@@ -2,4 +2,5 @@
     <string name="app_name">Shirt Classifier</string>
     <string name="choose">choose pic</string>
     <string name="prediction_key">cb4da91037cd4deeb35710d4aee2b4dc</string>
+    <string name="cvisionURL">https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/14026963-fe8d-43d9-be30-5f058988e016/classify/iterations/Shirt_prediction_firess/image</string>
 </resources>
