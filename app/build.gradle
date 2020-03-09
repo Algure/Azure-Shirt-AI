@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
-
+//
 android {
+
+    useLibrary 'org.apache.http.legacy'
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.ajiri_algure.myapplication"
@@ -12,11 +14,11 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    useLibrary 'org.apache.http.legacy'
+
 }
 
 dependencies {

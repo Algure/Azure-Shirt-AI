@@ -239,6 +239,7 @@ public class MainActivity extends AppCompatActivity {
         }else {
             showResultLayout(true);
             classText.setText("UNKNOWN");
+            Toast.makeText(this,"Ensure internet connection",Toast.LENGTH_SHORT).show();
         }
     }
 
