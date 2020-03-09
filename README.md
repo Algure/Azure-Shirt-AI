@@ -1,3 +1,3 @@
 # Azure-Shirt-AI
-This project classifies shirt types using a custom vision model hosted on azure servers.
+This project classifies shirts using a custom vision model hosted on azure servers.
  
